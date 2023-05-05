@@ -7,7 +7,6 @@
 	list-style: none;
 	scroll-behavior: smooth;
 }
-
 :root{
 	--bg-color: #ffffff;
 	--text-color: #121212;
@@ -194,7 +193,9 @@ section{
 	font-weight: 600;
 	letter-spacing: 2px;
 }
-
+contact-content #phone{
+	text-decoration: underline;
+}
 @media (max-width: 800px){
 	#menu-icon{
 		display: block;
